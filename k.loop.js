@@ -59,11 +59,103 @@
 
 // ? WAP to print sum of numbers from 1 to 10
 
-let sum = 0;
-for (let i = 1; i <= 10; i = i + 1) {
-  sum = sum + i;
-}
+// let sum = 0;
+// for (let i = 1; i <= 10; i = i + 1) {
+//   sum = sum + i;
+// }
 
-console.log(sum);
+// console.log(sum);
 
 // ? WAP to print product of numbers from 1 to 5
+
+// ===============================================================================
+
+// while
+
+// syntax
+
+// initialvalue
+
+// while (condition) {
+// some code here
+// increment/decrement
+// }
+
+// let i = 1;
+
+// while (i <= 10) {
+//   console.log(i);
+
+//   i = i + 1;
+// }
+
+// WAP to print values from 20 to 10
+
+// for (let i = 20; i >= 10; i = i - 1) {
+//   console.log(i);
+// }
+
+// let i = 20;
+
+// while (i >= 10) {
+//   console.log(i);
+
+//   i = i - 1;
+// }
+
+// WAP to print even numbers from 1 to 50
+
+// WAP to find if the given number is prime or not
+
+// i++ => i = i+1
+// i-- => i=i-1
+// let i = 1;
+
+// while (i <= 50) {
+//   let remainder = i % 2;
+
+//   if (remainder === 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// ==================================================================================
+
+// do..while
+
+// syntax
+
+// initial value
+
+// do {
+// some code here
+// increment/decrement
+// } while (condition);
+
+// for (let i = 1; i <= 10; i = i + 1) {
+//   console.log(i);
+// }
+
+// let i = 1;
+
+// do {
+//   console.log(i);
+
+//   i = i + 1;
+// } while (i >= 10);
+
+// let num = 13;
+
+// let isPrime = true;
+
+// for (let i = 2; i < num; i++) {
+//   let remainder = num % i;
+
+//   if (remainder === 0) {
+//     isPrime = false;
+//     break;
+//   }
+// }
+
+// console.log(`${num} is prime => ${isPrime}`);
