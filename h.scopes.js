@@ -1,13 +1,18 @@
 // ?scope
 
-// {
+// let paisa = 700;
 
+// let college = "NCIT";
+// {
+//   let paisa = 200;
+
+//   console.log(college);
 // }
 
-let fName = "Rohan";
+// local scope can access outer scope variables
 
-{
-  {
-    console.log(`Hi ${fName}`);
-  }
-}
+// {
+//   let bottle = "servewell";
+// }
+
+// console.log(bottle);
