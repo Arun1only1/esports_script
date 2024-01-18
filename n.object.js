@@ -158,16 +158,16 @@ const laptopDetails = {
 
 // ? nested object
 
-const studentDetails = {
-  firstName: "Rohan",
-  lastName: "Bhandari",
-  age: 22,
-  college: "Missouri State University",
-  address: {
-    temporary: "St. Louis",
-    permanent: "Kathmandu",
-  },
-};
+// const studentDetails = {
+//   firstName: "Rohan",
+//   lastName: "Bhandari",
+//   age: 22,
+//   college: "Missouri State University",
+//   address: {
+//     temporary: "St. Louis",
+//     permanent: "Kathmandu",
+//   },
+// };
 
 // console.log(studentDetails.address.temporary);
 // console.log(studentDetails["address"]["temporary"]);
@@ -176,6 +176,21 @@ const studentDetails = {
 // console.log(studentDetails.address["temporary"]);
 
 // studentDetails.address.permanent = "Missouri";
-studentDetails["address"]["permanent"] = "Kansas";
+// studentDetails["address"]["permanent"] = "Kansas";
 
-console.log(studentDetails);
+// console.log(studentDetails);
+
+// 5. hospital Details
+// add field => name,location,patientCapacity, numberOfBed, numberOfBlock,
+// numberOfDoctor,numberOfNurse
+// delete numberOfBed and numberOfNurse
+// update numberOfBlock
+// add new field named numberOfAmbulance
+// copy the object to new variable named newHospitalDetails
+// print out results like "There is a hospital named ABC with...."
+
+const hospitalDetails = {
+  name: "Patan Academy",
+  location: "Lalitpur",
+  patientCapacity: 500,
+};
