@@ -144,12 +144,102 @@ const prices = [100, 150, 177, 95, 66];
 // console.log(nameList);
 
 // ? for numeric array
-const nums = [1, 25, 100, 125, 22, 266, 277, 11111];
+// const nums = [1, 25, 100, 125, 22, 266, 277, 11111];
 
-// a-b => ascending sort
-// b-a => descending sort
-nums.sort((a, b) => {
-  return b - a;
-});
+// // a-b => ascending sort
+// // b-a => descending sort
+// nums.sort((a, b) => {
+//   return b - a;
+// });
 
-console.log(nums);
+// console.log(nums);
+
+// array of words
+// const words = ["spray", "elite", "exuberant", "destruction", "present"];
+
+// const fName = "Rajeev"; // ["R","a","j","e","e","v"]
+// console.log(fName.length);
+
+// strings whose length is greater than 6
+
+// const newWords = words.filter((item, index, self) => {
+//   if (item.length > 6) {
+//     return item;
+//   }
+// });
+
+// const newWords = words.filter((item) => item.length > 6);
+
+// console.log(newWords);
+
+// const country = "Nepal";
+// ["N","e","p","a","l"]
+
+// console.log(country[0]);
+
+// country[0] = "I";
+// console.log(country);
+
+// const obj = {};
+
+// Object.defineProperty(obj, "name", {
+//   value: "Suresh",
+//   enumerable: true, //show or hide
+//   writable: true, //editable
+//   configurable: true, //deletable
+// });
+
+// console.log(obj);
+
+// ? reduce
+
+const scores = [45, 55, 65, 72];
+
+// calculate total score
+
+// let sum = 0;
+// scores.map((item) => {
+//   sum = sum + item;
+// });
+
+// console.log(sum);
+
+// const totalValue = scores.reduce((sum, item, index, self) => {
+//   sum = sum + item;
+
+//   return sum;
+// }, 0);
+
+// console.log(totalValue);
+
+// let values = [10, 25, 35, 5];
+// calculate total value by multiplying each other
+
+// const totalValue = values.reduce((product, item) => product * item, 1);
+
+// console.log(totalValue);
+
+// ? reverse
+// ? reverses the order of array
+
+// const countries = ["Nepal", "India", "China", "Sri lanka", "Bangladesh"];
+
+// countries.reverse();
+
+// console.log(countries);
+
+// const marks = [25, 55, 10, 101];
+
+// marks.reverse();
+
+// console.log(marks);
+
+// ? use case
+const students = ["Suresh", "Rina", "Jibana", "Prithvi", "Amun"];
+
+// ascending order sort
+// students.sort();
+
+// descending order
+students.sort().reverse();
+console.log(students);
